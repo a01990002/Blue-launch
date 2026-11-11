@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Launch - Innovación Digital en Órbita</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@500;600;700&family=Cinzel:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particles / Floating Rockets Background Canvas -->
+    <canvas id="space-canvas"></canvas>
+
+    <!-- Main Container -->
+    <main class="landing-container">
+        <!-- Header / Identity Badge -->
+        <header class="header">
+            <div class="logo-badge">
+                <svg class="circuit-icon" viewBox="0 0 100 100">
+                    <!-- Circuit tree representation from isotipo -->
+                    <path d="M50 85 L50 45" stroke="#D4AF37" stroke-width="4" fill="none" stroke-linecap="round"/>
+                    <path d="M50 65 L35 50 L35 35" stroke="#D4AF37" stroke-width="3" fill="none"/>
+                    <path d="M50 55 L65 40 L65 25" stroke="#D4AF37" stroke-width="3" fill="none"/>
+                    <circle cx="35" cy="32" r="4" fill="#FFFFFF" stroke="#D4AF37" stroke-width="2"/>
+                    <circle cx="65" cy="22" r="4" fill="#FFFFFF" stroke="#D4AF37" stroke-width="2"/>
+                    <circle cx="50" cy="42" r="5" fill="#D4AF37"/>
+                    <polygon points="50,15 43,28 57,28" fill="#D4AF37"/>
+                </svg>
+                <div class="brand-titles">
+                    <h1 class="brand-title">BLUE LAUNCH</h1>
+                    <span class="brand-tagline">AEROSPACE & TECH</span>
+                </div>
+            </div>
+            <div class="status-pill">PROYECTO FINAL • EN ÓRBITA</div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="slogan-box">
+                <span class="quote-mark">“</span>
+                <h2 class="slogan-text">
+                    El cielo ya no es el límite; es solo nuestro punto de partida. <br>
+                    <span>Ingenia el futuro, desafía la gravedad y despega hacia lo extraordinario.</span>
+                </h2>
+            </div>
+
+            <p class="hero-description">
+                Bienvenidos a la cuenta regresiva oficial para el lanzamiento final de nuestro proyecto integrador. 
+                Innovación, tecnología y mecatrónica convergen en una sola misión.
+            </p>
+        </section>
+
+        <!-- Futuristic Countdown Timer -->
+        <section class="countdown-section">
+            <h3 class="section-title">GRAN LANZAMIENTO • NOVIEMBRE 2026</h3>
+            <div class="timer-grid">
+                <div class="timer-card">
+                    <span id="days" class="timer-value">00</span>
+                    <span class="timer-label">DÍAS</span>
+                </div>
+                <div class="timer-card">
+                    <span id="hours" class="timer-value">00</span>
+                    <span class="timer-label">HORAS</span>
+                </div>
+                <div class="timer-card">
+                    <span id="minutes" class="timer-value">00</span>
+                    <span class="timer-label">MINUTOS</span>
+                </div>
+                <div class="timer-card highlight">
+                    <span id="seconds" class="timer-value">00</span>
+                    <span class="timer-label">SEGUNDOS</span>
+                </div>
+            </div>
+
+            <!-- Audio Control & Sound Effects -->
+            <div class="audio-controls">
+                <button id="sound-btn" class="glow-button">
+                    <span class="icon">🔊</span>
+                    <span id="sound-text">ACTIVAR EFECTO AUDIO DESPEGUE</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Project Overview / Identity Specs Section -->
+        <section class="identity-section">
+            <div class="card">
+                <h3>ESPECIFICACIONES DE MISIÓN</h3>
+                <ul class="spec-list">
+                    <li><strong>Módulo:</strong> Ingeniería Mecatrónica & Sistemas</li>
+                    <li><strong>Código de Operación:</strong> Proyecto Final Blue Launch</li>
+                    <li><strong>Paleta Oficial:</strong> Azul Profundo (#0D183E) & Oro Launch (#D4AF37)</li>
+                    <li><strong>Estado de Sistemas:</strong> 100% Nominales - Listos para Ignición</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2026 Blue Launch • Innovación Digital en Órbita. Creado para la entrega del proyecto final.</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
